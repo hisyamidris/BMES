@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Robotic Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link href="css/animations.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- navbar navbar-robotic -->
+    <nav class="navbar navbar-robotic navbar-static-top">
+        <div class="container">
+            <header class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Robotic <span>Lab</span></a>
+            </header> <!-- navbar-header -->
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-nav-robotic navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html"><i class="icon-group"></i> About us</a></li>
+                            <li><a href="pricing.html"><i class="icon-usd"></i> Pricing</a></li>
+                            <li><a href="404.html"><i class="icon-frown"></i> Error 404</a></li>
+                            <li><a href="coming.html"><i class="icon-dropbox"></i> Coming Soon</a></li>
+                            <li><a href="register.html"><i class="icon-edit"></i> Registration</a></li>
+                            <li><a href="login.html"><i class="icon-user"></i> Login</a></li>
+                            <li><a href="faq.html"><i class="icon-question"></i> FAQ</a></li>
+                            <li><a href="contact.html"><i class="icon-envelope"></i> Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="typography.html"><i class="icon-font"></i> Typography</a></li>
+                            <li><a href="components.html"><i class="icon-th-large"></i> Components</a></li>
+                            <li><a href="grid.html"><i class="icon-th"></i> Grid Layout</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog.html"><i class="icon-indent-right"></i> Blog Right Sidebar</a></li>
+                            <li><a href="blog_left.html"><i class="icon-indent-left"></i> Blog Left Sidebar</a></li>
+                            <li><a href="blog_full.html"><i class="icon-align-justify"></i> Blog Full Width</a></li>
+                            <li class="divider"></li>
+                            <li><a href="single.html"><i class="icon-file-text-alt"></i> Blog Single Item</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portafolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="portafolio.html"><i class="icon-folder-open-alt"></i> Portafolio</a></li>
+                            <li><a href="portafolio_item.html"><i class="icon-picture"></i> Portafolio Item</a></li>
+                        </ul>
+                    </li>
+                </ul> <!-- navbar-nav -->
+            </div><!--navbar-collapse -->
+        </div> <!--container -->
+    </nav> <!-- navbar-robotic -->
+
+    <div class="container">
+        <header class="section-title">
+            <h1>Portafolio</h1>
+
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Portafolio</li>
+            </ol>
+        </header>
+
+        <section class="portafolio">
+            <ul class="portafolio-control">
+                <li class="filter active" data-filter="all">All Items</li>
+                <li class="filter" data-filter="1">Web Design</li>
+                <li class="filter" data-filter="2">IOS App</li>
+                <li class="filter" data-filter="3">Android App</li>
+                <li class="filter" data-filter="4">Windows App</li>
+            </ul>
+
+            <div class="row" id="Grid">
+                <div class="col-sm-6 col-lg-3 col-md-4 mix 2">
+                    <a href="portafolio_item.html" class="thumbnail">
+                        <img src="img/p1.jpg" class="img-responsive" alt="Image">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mix 1 3 4">
+                    <a href="portafolio_item.html" class="thumbnail">
+                        <img src="img/p2.jpg" alt="...">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mix 2 4">
+                    <a href="portafolio_item.html" class="thumbnail">
+                        <img src="img/p3.jpg" alt="...">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mix 1 3">
+                    <a href="portafolio_item.html" class="thumbnail">
+                        <img src="img/p4.jpg" alt="...">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mix 3 4">
+                    <a href="portafolio_item.html" class="thumbnail">
+                        <img src="img/p5.jpg" alt="...">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mix 3 2 1">
+                    <a href="portafolio_item.html" class="thumbnail">
+                        <img src="img/p6.jpg" alt="...">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mix 3 4">
+                    <a href="portafolio_item.html" class="thumbnail">
+                        <img src="img/p7.jpg" alt="...">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mix 1 2 3">
+                    <a href="portafolio_item.html" class="thumbnail">
+                        <img src="img/p8.jpg" alt="...">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mix 2 4">
+                    <a href="portafolio_item.html" class="thumbnail">
+                        <img src="img/p9.jpg" alt="...">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-4 mix 2 1">
+                    <a href="portafolio_item.html" class="thumbnail">
+                        <img src="img/p10.jpg" alt="...">
+                    </a>
+                </div>
+            </div> <!-- row -->
+        </section>
+    </div> <!-- container -->
+
+    <aside id="last-widgets">
+        <div class="container">
+            <div class="col-md-4">
+                <section class="footer-widget">
+                    <h3>Sitemap</h3>
+                    <ul class="footer-sitemap two_cols">
+                        <li><a href="#"><i class="icon-angle-right"></i> Home</a></li>
+                        <li><a href="#"><i class="icon-angle-right"></i> Blog</a></li>
+                        <li><a href="#"><i class="icon-angle-right"></i>Portafolio</a></li>
+                        <li><a href="#"><i class="icon-angle-right"></i>Pricing</a></li>
+                        <li><a href="#"><i class="icon-angle-right"></i>About us</a></li>
+                        <li><a href="#"><i class="icon-angle-right"></i>Contact</a></li>
+                    </ul>
+                    <h3>Monthly Newsletter</h3>
+                    <p>Lorem ipsum Amet fugiat elit nisi anim mollit in labore ut esse Duis ullamco ad dolor veniam velit.</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Email Adress">
+                        <span class="input-group-btn">
+                            <button class="btn btn-info" type="button">Subscribe</button>
+                        </span>
+                    </div><!-- /input-group -->
+                </section>
+            </div>
+            <div class="col-md-4">
+                <section class="footer-widget">
+                    <h3>Recent Post blog</h3>
+                    <div class="media footer-post">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="img/65.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <a  href="#">Lorem ipsum Aliquip pariatur dolore cillum dolore eiusmod</a>
+                            <span class="footer-post-date">December 15, 2013</span>
+                        </div>
+                    </div> <!-- media -->
+                    <div class="media footer-post">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="img/65.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <a  href="#">Reprehenderit in culpa dolore labore ullamco exercitation</a>
+                            <span class="footer-post-date">January 22, 2013</span>
+                        </div>
+                    </div> <!-- media -->
+                    <div class="media footer-post">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="img/65.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <a  href="#">Tempor dolor id pariatur est enim magna dolore cillum</a>
+                            <span class="footer-post-date">September 7, 2012</span>
+                        </div>
+                    </div> <!-- media -->
+                </section>
+            </div>
+            <div class="col-md-4">
+                <section class="footer-widget">
+                    <h3 class="logo"><span>Robotic</span> Lab</h3>
+                    <address>
+                        795 Folsom Ave, Suite 600<br>
+                        San Francisco, CA 94107<br>
+                        Phone: 123 456 7890 <br>
+                        Fax: 123 456 7890 <br>
+                        Email: <a href="mailto:joe@example.com">example@domain.com</a>
+                    </address>
+                    <div class="footer-social">
+                        <h3>Social media</h3>
+                        <a href="#" class="i-rss"><i class="icon-rss"></i></a>
+                        <a href="#" class="i-google"><i class="icon-google-plus"></i></a>
+                        <a href="#" class="i-twitter"><i class="icon-twitter"></i></a>
+                        <a href="#" class="i-facebook"><i class="icon-facebook"></i></a>
+                        <a href="#" class="i-pinterest"><i class="icon-pinterest"></i></a>
+                        <a href="#" class="i-linkedin"><i class="icon-linkedin"></i></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </aside> <!-- last-widgets -->
+
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; 2013 <a href="#">Robotic Lab, inc.</a> All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/holder.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/toucheffects.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    
+    <!-- MixItUp -->
+    <script>
+        $(function() {
+            $('#Grid').mixitup();    
+        });
+    </script>
+    
+</body>
+
+</html>
