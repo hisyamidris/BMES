@@ -1,0 +1,54 @@
+
+/* Animations */
+/* -------------------------------------------------------------- */
+
+/* down */
+
+ @keyframes down {
+	from {
+	transform: translate(0,-550px);
+	}
+
+	to {
+	transform: translate(0,0);
+	}
+}
+
+@-moz-keyframes down {
+	from {
+	transform: translate(0,-550px);
+	-moz-transform: translate(0,-550px);
+	}
+
+	to {
+	transform: translate(0,0);
+	-moz-transform: translate(0,0);
+	}
+}
+
+
+@-o-keyframes down {
+	from {
+	transform: translate(0,-550px);
+	-moz-transform: translate(0,-550px);
+	}
+
+	to {
+	transform: translate(0,0);
+	-moz-transform: translate(0,0);
+	}
+}
+
+
+
+@-webkit-keyframes down {
+	from {
+	transform: translate(0,-550px);
+	-webkit-transform: translate(0,-550px);
+	}
+
+	to {
+	transform: translate(0,0);
+	-webkit-transform: translate(0,0);
+	}
+}

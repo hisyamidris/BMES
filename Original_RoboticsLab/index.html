@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Robotic Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link href="css/animations.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- navbar navbar-robotic -->
+    <nav class="navbar navbar-robotic navbar-static-top">
+        <div class="container">
+            <header class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Robotic <span>Lab</span></a>
+            </header> <!-- navbar-header -->
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-nav-robotic navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html"><i class="icon-group"></i> About us</a></li>
+                            <li><a href="pricing.html"><i class="icon-usd"></i> Pricing</a></li>
+                            <li><a href="404.html"><i class="icon-frown"></i> Error 404</a></li>
+                            <li><a href="coming.html"><i class="icon-dropbox"></i> Coming Soon</a></li>
+                            <li><a href="register.html"><i class="icon-edit"></i> Registration</a></li>
+                            <li><a href="login.html"><i class="icon-user"></i> Login</a></li>
+                            <li><a href="faq.html"><i class="icon-question"></i> FAQ</a></li>
+                            <li><a href="contact.html"><i class="icon-envelope"></i> Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="typography.html"><i class="icon-font"></i> Typography</a></li>
+                            <li><a href="components.html"><i class="icon-th-large"></i> Components</a></li>
+                            <li><a href="grid.html"><i class="icon-th"></i> Grid Layout</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog.html"><i class="icon-indent-right"></i> Blog Right Sidebar</a></li>
+                            <li><a href="blog_left.html"><i class="icon-indent-left"></i> Blog Left Sidebar</a></li>
+                            <li><a href="blog_full.html"><i class="icon-align-justify"></i> Blog Full Width</a></li>
+                            <li class="divider"></li>
+                            <li><a href="single.html"><i class="icon-file-text-alt"></i> Blog Single Item</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portafolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="portafolio.html"><i class="icon-folder-open-alt"></i> Portafolio</a></li>
+                            <li><a href="portafolio_item.html"><i class="icon-picture"></i> Portafolio Item</a></li>
+                        </ul>
+                    </li>
+                </ul> <!-- navbar-nav -->
+            </div><!--navbar-collapse -->
+        </div> <!--container -->
+    </nav> <!-- navbar-robotic -->
+
+    <!-- Carousel Home -->
+    <div class="wrap-home-header">
+        <div class="container">
+            <div class="lcd">
+                <!-- change the value of data-interval to change the speed (milliseconds) --> 
+                <section id="carousel-home" class="carousel slide " data-interval="3000">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-home" data-slide-to="1"></li>
+                        <li data-target="#carousel-home" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <article class="item active">
+                            <div class="row">
+                                <div class="col-md-8 col-md-push-4">
+                                    <div class="video hidden-xs hidden-sm">
+                                        <iframe src="http://player.vimeo.com/video/5318821?title=0&amp;byline=0&amp;portrait=0&amp;"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-md-pull-8">
+                                    <div class="carousel-caption">
+                                        <h2>Modern and responsive web template</h2>
+                                        <ul>
+                                            <li>Completely in HTML5 and CSS3</li>
+                                            <li>Responsive Design: Desktop, Tablet, Smartphone...</li>
+                                            <li>Clean, elegant and modern.</li>
+                                            <li>Customizable</li>
+                                            <li>After Sales Support</li>
+                                        </ul> 
+                                        <a href="#" class="btn btn-robotic-inverse">Take tour</a>
+                                        <a href="#" class="btn btn-robotic-inverse">Purchase now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="item">
+                            <div class="row">
+                                <div class="col-md-6 col-md-push-6">
+                                    <img src="img/vista.png" class="img-responsive hidden-xs hidden-sm" alt="Image">
+                                </div>
+                                <div class="col-md-6 col-md-pull-6">
+                                    <div class="carousel-caption">
+                                        <h2>Lorem ipsum Nostrud ad nulla est</h2>
+                                        <p>Lorem ipsum Nostrud ad nulla est in consequat ad magna reprehenderit minim minim irure aute commodo aliquip laborum ad sint Ut dolor et in do cupidatat veniam laborum dolor elit in ullamco eu ad Ut in.</p>
+                                        <p>Mollit sed Duis proident reprehenderit dolore velit fugiat consequat dolore aliqua magna sed officia ullamco incididunt est Excepteur sit Ut ut anim adipisicing anim eu esse nulla in magna mollit sunt ut proident aliqua fugiat adipisicing commodo labore labore fugiat et Excepteur velit irure elit fugiat aliqua anim elit pariatur proident id.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/5.png" class="img-responsive hidden-xs hidden-sm" alt="Image">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="carousel-caption">
+                                        <h2>Reprehenderit minim minim irure aute commodo aliquip</h2>
+                                        <p>Lorem ipsum Nostrud ad nulla est in consequat ad magna reprehenderit minim minim irure aute commodo aliquip laborum ad sint Ut dolor et in do cupidatat veniam laborum dolor elit in ullamco eu ad Ut in.</p>
+                                        <p>Lorem ipsum Velit ex ullamco in et labore Excepteur pariatur esse velit nisi fugiat amet cillum consectetur magna sunt do nulla nostrud quis ex do aliquip enim minim.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div> <!-- carousel-inner -->
+                </section> <!-- carousel-home -->
+            </div> <!-- lcd -->
+        </div> <!-- container -->
+    </div> <!-- wrap-header-home -->
+
+        <!-- home-features -->
+    <div class="wrap-home-features">
+        <div class="container">
+            <section class="home-features">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <article class="home-features-item">
+                            <i class="icon-globe"></i>
+                            <h2>Lorem ipsum nulla</h2>
+                            <p>Lorem ipsum Dolore proident reprehenderit veniam magna incididunt est Ut reprehenderit nisi nisi non elit sed velit.</p>
+                            <a class="btn btn-default">Read More</a>
+                        </article>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <article class="home-features-item">
+                            <i class="icon-html5"></i>
+                            <h2>Adipisicing ut aute</h2>
+                            <p>Lorem ipsum Dolore proident reprehenderit veniam magna incididunt est Ut reprehenderit nisi nisi non elit sed velit.</p>
+                            <a class="btn btn-default">Read More</a>
+                        </article>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <article class="home-features-item">
+                            <i class="icon-beaker"></i>
+                            <h2>Laboris quis aliqua</h2>
+                            <p>Lorem ipsum Dolore proident reprehenderit veniam magna incididunt est Ut reprehenderit nisi nisi non elit sed velit.</p>
+                            <a class="btn btn-default">Read More</a>
+                        </article>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <article class="home-features-item">
+                            <i class="icon-group"></i>
+                            <h2>Excep tempor quis</h2>
+                            <p>Lorem ipsum Dolore proident reprehenderit veniam magna incididunt est Ut reprehenderit nisi nisi non elit sed velit.</p>
+                            <a class="btn btn-default">Read More</a>
+                        </article>
+                    </div>
+                </div> <!-- row -->
+            </section> <!-- home-features -->
+        </div> <!-- container -->
+    </div> <!-- wrap-home-features -->
+
+    <div class="container">
+            <div class="row">                             
+                <div class="col-lg-8 col-md-12">
+                    <section class="home-works">            
+                        <h1 class="section-title">Latest Works</h1>
+                        
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <figure class="caption cs-style-3">
+                                    <img src="img/w1.jpg" alt="img04">
+                                    <figcaption>
+                                        <h3>Settings</h3>
+                                        <span>Jacob Cummings</span>
+                                        <a class="btn btn-robotic-inverse" href="#">Take a look</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <figure class="caption cs-style-3">
+                                    <img src="img/w2.jpg" alt="img01">
+                                    <figcaption>
+                                        <h3>Camera</h3>
+                                        <span>Jacob Cummings</span>
+                                        <a class="btn btn-robotic-inverse" href="#">Take a look</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <figure class="caption cs-style-3">
+                                    <img src="img/w3.jpg" alt="img02">
+                                    <figcaption>
+                                        <h3>Music</h3>
+                                        <span>Jacob Cummings</span>
+                                        <a class="btn btn-robotic-inverse" href="#">Take a look</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <figure class="caption cs-style-3">
+                                    <img src="img/w4.jpg" alt="img02">
+                                    <figcaption>
+                                        <h3>Music</h3>
+                                        <span>Jacob Cummings</span>
+                                        <a class="btn btn-robotic-inverse" href="#">Take a look</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>    
+                    </section> <!-- home-works -->
+                </div> <!-- col-md-8 -->
+                <div class="col-lg-4 col-md-12">
+                    <section class="home-social-widget">
+                        <h1 class="section-title">Social Networking</h1>
+                        <ul class="nav nav-tabs nav-tabs-robotic nav-tabs-robotic-light nav-tabs-home" id="myTab">
+                            <li class="active"><a href="#rss" data-toggle="tab"><i class="icon-rss"></i> RSS</a></li>
+                            <li><a href="#twitter" data-toggle="tab"><i class="icon-twitter"></i> Twitter</a></li>
+                            <li><a href="#facebook" data-toggle="tab"><i class="icon-facebook"></i> Facebook</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="rss">
+                                <ul class="home-social-item">
+                                    <li>
+                                        <h4><a href="#">Lorem ipsum Voluptate commodo ex culpa magna.</a></h4>
+                                        <p>Lorem ipsum Voluptate veniam magna pariatur id dolore est adipisicing nisi officia enim aliquip Excepteur.</p>
+                                    </li>
+                                    <li>
+                                        <h4><a href="#">Lorem ipsum Voluptate commodo ex culpa magna.</a></h4>
+                                        <p>Lorem ipsum Voluptate veniam magna pariatur id dolore est adipisicing nisi officia enim aliquip Excepteur.</p>
+                                    </li>
+                                    <li>
+                                        <h4><a href="#">Lorem ipsum Voluptate commodo ex culpa magna.</a></h4>
+                                        <p>Lorem ipsum Voluptate veniam magna pariatur id dolore est adipisicing nisi officia enim aliquip Excepteur.</p>
+                                    </li>
+                                    <li>
+                                        <h4><a href="#">Lorem ipsum Voluptate commodo ex culpa magna.</a></h4>
+                                        <p>Lorem ipsum Voluptate veniam magna pariatur id dolore est adipisicing nisi officia enim aliquip Excepteur.</p>
+                                    </li>
+                                    <li>
+                                        <h4><a href="#">Lorem ipsum Voluptate commodo ex culpa magna.</a></h4>
+                                        <p>Lorem ipsum Voluptate veniam magna pariatur id dolore est adipisicing nisi officia enim aliquip Excepteur.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane" id="twitter">
+                                <ul class="home-social-item">
+                                    <li>
+                                        <p><a href="#">@roboticlab</a>  At vero eots major web browsers, tablets and phone et iusto odio magna pariatur id dignissimos and iusto. <a href="#">http://t.co/sBav7dm</a> | <span>8 hours ago</span></p>
+                                    </li>
+                                    <li>
+                                        <p><a href="#">@roboticlab</a>  At vero eots major web browsers, tablets and phone et iusto odio magna pariatur id dignissimos and iusto. <a href="#">http://t.co/sBav7dm</a> | <span>14 hours ago</span></p>
+                                    </li>
+                                    <li>
+                                        <p><a href="#">@roboticlab</a>  At vero eots major web browsers, tablets and phone et iusto odio magna pariatur id dignissimos and iusto. <a href="#">http://t.co/sBav7dm</a> | <span>20 hours ago</span></p>
+                                    </li>
+                                    <li>
+                                        <p><a href="#">@roboticlab</a>  At vero eots major web browsers, tablets and phone et iusto odio magna pariatur id dignissimos and iusto. <a href="#">http://t.co/sBav7dm</a> | <span>2 days ago</span></p>
+                                    </li>
+                                    <li>
+                                        <p><a href="#">@roboticlab</a>  At vero eots major web browsers, tablets and phone et iusto odio magna pariatur id dignissimos and iusto. <a href="#">http://t.co/sBav7dm</a> | <span>5 days ago</span></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane" id="facebook">
+                                <p>Lorem ipsum Veniam cillum consequat veniam incididunt incididunt non Duis ut eu culpa laborum adipisicing qui dolor do ut exercitation in culpa nostrud consectetur cillum eu anim amet Ut cupidatat tempor dolor sint reprehenderit consectetur dolor labore deserunt laboris commodo id.</p>
+                                <p>Lorem ipsum Irure do anim non exercitation exercitation eiusmod eu non cillum cillum in culpa quis nisi laborum enim cupidatat elit Excepteur Ut et.</p>
+                                <p>Proident ex deserunt consequat id Ut voluptate do minim ut dolore occaecat nostrud ut id adipisicing Ut incididunt dolore cillum quis tempor irure qui irure ullamco fugiat qui.</p>
+                                <p>Lorem ipsum Sed nostrud in in ad Ut eiusmod labore proident veniam dolor minim Duis laboris est consectetur fugiat tempor velit dolore sunt dolore dolor irure voluptate cillum occaecat ea ex sit aliqua consequat.</p>
+                            </div>
+                        </div>
+                    </section> <!-- home-social-widget -->
+                </div> <!-- col-md-4 -->
+            </div> <!-- row -->
+        
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <section class="team-home">
+                    <h1 class="section-title">Our Team</h1>
+                    <p class="lead">&laquo;Lorem ipsum Eu velit irure velit officia ut sit irure excepteur aliquip velit nisi aute aliqua velit amet nostrud occaecat nisi ea consequat.&raquo;</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="team-home-item">
+                                <div class="team-home-img">
+                                    <img src="img/th1.jpg" alt="">
+                                </div>
+                                <div class="team-home-content">
+                                    <h3>Mark Rymond - CEO</h3>
+                                    <p>Lorem ipsum Culpa qui eu dolore non culpa pariatur mollit qui sint occaecat nisi ea consequat occaecat dolor nisi nostrud dolor consectetur occaecat.</p>
+                                    <p>Eiusmod laboris aliqua velit amet nostrud in magna reprehenderit Excepteur tempor amet reprehenderit voluptate proident consectetur elit.</p>
+                                </div>
+                                <div class="team-home-footer">
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="team-home-item">
+                                <div class="team-home-img">
+                                    <img src="img/th2.jpg" alt="">
+                                </div>
+                                <div class="team-home-content">
+                                    <h3>Mark Rymond - CEO</h3>
+                                    <p>Lorem ipsum Culpa qui eu dolore non culpa pariatur mollit qui sint occaecat nisi ea consequat occaecat dolor nisi nostrud dolor consectetur occaecat.</p>
+                                    <p>Eiusmod laboris aliqua velit amet nostrud in magna reprehenderit Excepteur tempor amet reprehenderit voluptate proident consectetur elit.</p>
+                                </div>
+                                <div class="team-home-footer">
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="team-home-item">
+                                <div class="team-home-img">
+                                    <img src="img/th3.jpg" alt="">
+                                </div>
+                                <div class="team-home-content">
+                                    <h3>Mark Rymond - CEO</h3>
+                                    <p>Lorem ipsum Culpa qui eu dolore non culpa pariatur mollit qui sint occaecat nisi ea consequat occaecat dolor nisi nostrud dolor consectetur occaecat.</p>
+                                    <p>Eiusmod laboris aliqua velit amet nostrud in magna reprehenderit Excepteur tempor amet reprehenderit voluptate proident consectetur elit.</p>
+                                </div>
+                                <div class="team-home-footer">
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> <!-- team-home -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 col-md-7">
+                <section class="home-about">
+                    <div class="section-title">
+                        <h1>About us</h1>
+                    </div>
+                    <p>Lorem ipsum Non magna in sit in Excepteur elit amet minim do eu quis ut sed fugiat sint ut est velit ut dolor sunt et veniam in culpa dolor cupidatat in incididunt laborum occaecat eu deserunt est amet tempor <strong>proident velit irure</strong> veniam elit mollit dolor laborum exercitation exercitation et minim est consectetur minim dolore aute veniam Duis quis dolor non ea irure ea Duis qui culpa culpa irure Ut consectetur sit dolor dolor labore.</p>
+                    <p>cillum ut reprehenderit proident fugiat ad et non id ea cupidatat veniam id ex et mollit ut Excepteur cupidatat ea anim tempor sunt quis ut id sunt tempor nostrud quis tempor do incididunt eu enim et labore nulla veniam mollit <strong>eiusmod</strong> dolore in enim in ea veniam ullamco aliquip eu laborum esse laborum qui non labore dolor dolore est mollit laboris laborum qui dolor dolore laboris in reprehenderit veniam ex quis Excepteur nostrudin voluptate proident consectetur elit.</p>
+                </section>
+            </div>
+            <div class="col-lg-4 col-md-5">
+                <section class="home-clients">
+                    <div class="section-title">
+                        <h1>Our clients</h1>
+                    </div>
+                    <a href="#"><img src="img/rb.jpg" class="img-responsive" alt="Image"></a>
+                    <a href="#"><img src="img/fb.jpg" class="img-responsive" alt="Image"></a>
+                    <a href="#"><img src="img/ny.jpg" class="img-responsive" alt="Image"></a>
+                    <a href="#"><img src="img/mac.jpg" class="img-responsive" alt="Image"></a>
+                    <a href="#"><img src="img/rb.jpg" class="img-responsive" alt="Image"></a>
+                    <a href="#"><img src="img/cc.jpg" class="img-responsive" alt="Image"></a>
+                </section>
+            </div>
+        </div> <!-- row -->
+
+        <!-- latest-posts -->
+        <section class="latest-post">
+            <h1 class="section-title">Latest Blog Entries</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="home-post-item"> 
+                        <a href="#"><img src="img/post.jpg" class="img-responsive" alt="Image"></a>
+                        <h3><a href="#">Lorem ipsum Mollit culpa qui cillum</a></h3>
+                        <p>Lorem ipsum Mollit culpa qui cillum do sunt exercitation in minim reprehenderit veniam ex quis Excepteur nostrudin reprehenderit nisi nisi non elit sed velit reprehenderit nisi nisi non elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="home-post-item">
+                        <a href="#"><img src="img/post5.jpg" class="img-responsive" alt="Image"></a>
+                        <h3><a href="#">Lorem ipsum Mollit culpa qui cillum</a></h3>
+                        <p>Lorem ipsum Mollit culpa qui cillum do sunt exercitation in minim reprehenderit veniam ex quis Excepteur nostrudin reprehenderit nisi nisi non elit sed velit.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="home-post-item">
+                        <a href="#"><img src="img/post3.jpg" class="img-responsive" alt="Image"></a>
+                        <h3><a href="#">Lorem ipsum Mollit culpa qui cillum</a></h3>
+                        <p>Lorem ipsum Mollit culpa qui cillum do sunt exercitation in minim reprehenderit veniam ex quis Excepteur nostrudin reprehenderit nisi nisi non elit sed velit magna incididunt.</p>
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </section> <!-- latest-post -->
+    </div> <!--container -->
+
+    <aside id="last-widgets">
+        <div class="container">
+            <div class="col-md-4">
+                <section class="footer-widget">
+                    <h3>Sitemap</h3>
+                    <ul class="footer-sitemap two_cols">
+                        <li><a href="#"><i class="icon-angle-right"></i> Home</a></li>
+                        <li><a href="#"><i class="icon-angle-right"></i> Blog</a></li>
+                        <li><a href="#"><i class="icon-angle-right"></i>Portafolio</a></li>
+                        <li><a href="#"><i class="icon-angle-right"></i>Pricing</a></li>
+                        <li><a href="#"><i class="icon-angle-right"></i>About us</a></li>
+                        <li><a href="#"><i class="icon-angle-right"></i>Contact</a></li>
+                    </ul>
+                    <h3>Monthly Newsletter</h3>
+                    <p>Lorem ipsum Amet fugiat elit nisi anim mollit in labore ut esse Duis ullamco ad dolor veniam velit.</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Email Adress">
+                        <span class="input-group-btn">
+                            <button class="btn btn-info" type="button">Subscribe</button>
+                        </span>
+                    </div><!-- /input-group -->
+                </section>
+            </div>
+            <div class="col-md-4">
+                <section class="footer-widget">
+                    <h3>Recent Post blog</h3>
+                    <div class="media footer-post">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="img/65.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <a  href="#">Lorem ipsum Aliquip pariatur dolore cillum dolore eiusmod</a>
+                            <span class="footer-post-date">December 15, 2013</span>
+                        </div>
+                    </div> <!-- media -->
+                    <div class="media footer-post">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="img/65.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <a  href="#">Reprehenderit in culpa dolore labore ullamco exercitation</a>
+                            <span class="footer-post-date">January 22, 2013</span>
+                        </div>
+                    </div> <!-- media -->
+                    <div class="media footer-post">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="img/65.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <a  href="#">Tempor dolor id pariatur est enim magna dolore cillum</a>
+                            <span class="footer-post-date">September 7, 2012</span>
+                        </div>
+                    </div> <!-- media -->
+                </section>
+            </div>
+            <div class="col-md-4">
+                <section class="footer-widget">
+                    <h3 class="logo"><span>Robotic</span> Lab</h3>
+                    <address>
+                        795 Folsom Ave, Suite 600<br>
+                        San Francisco, CA 94107<br>
+                        Phone: 123 456 7890 <br>
+                        Fax: 123 456 7890 <br>
+                        Email: <a href="mailto:joe@example.com">example@domain.com</a>
+                    </address>
+                    <div class="footer-social">
+                        <h3>Social media</h3>
+                        <a href="#" class="i-rss"><i class="icon-rss"></i></a>
+                        <a href="#" class="i-google"><i class="icon-google-plus"></i></a>
+                        <a href="#" class="i-twitter"><i class="icon-twitter"></i></a>
+                        <a href="#" class="i-facebook"><i class="icon-facebook"></i></a>
+                        <a href="#" class="i-pinterest"><i class="icon-pinterest"></i></a>
+                        <a href="#" class="i-linkedin"><i class="icon-linkedin"></i></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </aside> <!-- last-widgets -->
+
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; 2013 <a href="#">Robotic Lab, inc.</a> All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/holder.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/toucheffects.js"></script>
+    <script>
+        $('#carousel-home').carousel()
+    </script>
+    
+</body>
+
+</html>
