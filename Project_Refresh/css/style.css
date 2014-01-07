@@ -1375,6 +1375,52 @@ ul.navbar-nav-robotic > li.dropdown-menu {
     background-color: #4da0d1;
 }
 
+.pricing-box-price-silver sh3 {
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    font-size: 2.6em;
+    text-align: center;
+    font-color: #c0c0c0;
+}
+
+.pricing-box-price-silver sh3 > sub {
+    font-size: .6em;
+    text-align: center;
+}
+
+.pricing-box-silver {
+    border-color: #c0c0c0;
+}
+
+.pricing-box-silver > .pricing-box-header{
+    color: #c0c0c0   ;
+    background-color: #c0c0c0;
+}
+
+.pricing-box-price-gold gh3 {
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    font-size: 2.6em;
+    text-align: center;
+    font-color: #FFD700;
+}
+
+.pricing-box-price-gold gh3 > sub {
+    font-size: .6em;
+    text-align: center;
+}
+
+.pricing-box-gold {
+    border-color: #FFD700;
+}
+
+.pricing-box-gold > .pricing-box-header{
+    color: #FFD700   ;
+    background-color: #FFD700;
+}
+
 
 /* Coming Soon */
 /* ----------------------------------------------*/
