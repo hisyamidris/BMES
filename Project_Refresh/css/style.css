@@ -186,9 +186,19 @@ background-color: transparent;
 }
 
 .btn-robotic {
-    border-color: #4da0d1;
+    border-color: #FFFFFF;
     color: #4da0d1;
     background-color: transparent;
+}
+.btn-gold {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #FFD700;
+}
+.btn-silver {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #C0C0C0;
 }
 
 .btn-robotic:hover {
@@ -1364,6 +1374,7 @@ ul.navbar-nav-robotic > li.dropdown-menu {
 .pricing-box-footer {
     margin: 10px auto;
     text-align: center;
+    border-color: #4da0d1;
 }
 
 .pricign-box-pro {
