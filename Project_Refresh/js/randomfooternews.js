@@ -1,49 +1,49 @@
     (function() {
       var quotes = [
         {
-          text1: "Biomedical Engineering Society",
-		  link1: "http://bmes.org/",
-          img1:  "img/bmes65.jpg",
+          text1: "Covidien",
+		  link1: "http://www.covidien.com/covidien/pages.aspx",
+          img1:  "img/covidien65.jpg",
 		  text2: "University of Colorado Engineering Council",
 		  link2: "http://www.colorado.edu/engineering/ucec",
           img2:  "img/ucec65.jpg"
         },
         {
-          text1: "Biomedical Engineering Society",
-		  link1: "http://bmes.org/",
-          img1:  "img/bmes65.jpg",
-		  text2: "Anchor - Physical Therapy, Spine & Sports Medicine, P.C.",
-		  link2: "http://www.anchorphysicaltherapy.net/",
-          img2:  "img/anchor65.jpg"
+          text1: "Covidien",
+		  link1: "http://www.covidien.com/covidien/pages.aspx",
+          img1:  "img/covidien65.jpg",
+		  text2: "Univ of Colorado - Student Government",
+		  link2: "http://cusg.colorado.edu/content/sgfb",
+          img2:  "img/cu65.jpg"
         },
 		{
           text1: "University of Colorado Engineering Council",
 		  link1: "http://www.colorado.edu/engineering/ucec",
           img1:  "img/ucec65.jpg",
-		  text2: "Biomedical Engineering Society",
-		  link2: "http://bmes.org/",
-          img2:  "img/bmes65.jpg"
+		  text2: "Covidien",
+		  link2: "http://www.covidien.com/covidien/pages.aspx",
+          img2:  "img/covidien65.jpg"
         },
 		{
           text1: "University of Colorado Engineering Council",
 		  link1: "http://www.colorado.edu/engineering/ucec",
           img1:  "img/ucec65.jpg",
-		  text2: "Anchor - Physical Therapy, Spine & Sports Medicine, P.C.",
-		  link2: "http://www.anchorphysicaltherapy.net/",
-          img2:  "img/anchor65.jpg"
+		  text2: "Univ of Colorado - Student Government",
+		  link2: "http://cusg.colorado.edu/content/sgfb",
+          img2:  "img/cu65.jpg"
         },
 		{
-          text1: "Anchor - Physical Therapy, Spine & Sports Medicine, P.C.",
-		  link1: "http://www.anchorphysicaltherapy.net/",
-          img1:  "img/anchor65.jpg",
-		  text2: "Biomedical Engineering Society",
-		  link2: "http://bmes.org/",
-          img2:  "img/bmes65.jpg"
+          text1: "Univ of Colorado - Student Government",
+		  link1: "http://cusg.colorado.edu/content/sgfb",
+          img1:  "img/cu65.jpg",
+		  text2: "Covidien",
+		  link2: "http://www.covidien.com/covidien/pages.aspx",
+          img2:  "img/covidien65.jpg"
         },
 		{
-          text1: "Anchor - Physical Therapy, Spine & Sports Medicine, P.C.",
-		  link1: "http://www.anchorphysicaltherapy.net/",
-          img1:  "img/anchor65.jpg",
+          text1: "Univ of Colorado - Student Government",
+		  link1: "http://cusg.colorado.edu/content/sgfb",
+          img1:  "img/cu65.jpg",
 		  text2: "University of Colorado Engineering Council",
 		  link2: "http://www.colorado.edu/engineering/ucec",
           img2:  "img/ucec65.jpg"
