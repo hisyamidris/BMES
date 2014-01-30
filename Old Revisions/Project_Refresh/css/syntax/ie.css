@@ -1,0 +1,6 @@
+
+.navbar-robotic .dropdown-menu > li > a:hover,
+.navbar-robotic .dropdown-menu > li.active > a,
+.navbar-robotic .dropdown-menu > li.active > a:hover {
+    background-color: #fff;
+}
