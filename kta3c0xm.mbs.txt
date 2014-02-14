@@ -1,0 +1,38 @@
+﻿Merge branch 'master' of https://github.com/hisyamidris/BMES
+
+Conflicts:
+	RMMTC/covidien_poster.jpg
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 2 and 2 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#   (use "git commit" to conclude merge)
+#
+# Changes to be committed:
+#
+#	modified:   RMMTC/about.html
+#	modified:   RMMTC/cfair.html
+#	modified:   RMMTC/contact.html
+#	deleted:    RMMTC/covidien_poster.jpg
+#	modified:   RMMTC/covidien_poster_zoom.html
+#	new file:   RMMTC/img/aegis_cfair.png
+#	deleted:    RMMTC/img/covidien_poster.jpg
+#	modified:   RMMTC/index.html
+#	modified:   RMMTC/itinerary.html
+#	modified:   RMMTC/posters.html
+#	modified:   RMMTC/registration.html
+#	modified:   RMMTC/speakers.html
+#	modified:   RMMTC/sponsor.html
+#
+
